@@ -2,16 +2,17 @@ import React from "react";
 
 function NavBar(){
     return(
-        <div className="NavBar">
-            <img className="logo" src="../assets/logo.svg" alt="logo"></img>
+        <header className="NavBar">
+            <a className="logo" href="/LorcanaApp">The <span className="logospan">Ink</span> Pot</a>
             <nav>
                 <ul className="NavLinks">
-                    <li><a href="/#">Calender</a></li>
-                    <li><a href="/#">Card Prices</a></li>
-                    <li><a href="/#">About Me</a></li>
+                    <li><a href="/LorcanaApp">Card Prices</a></li>
+                    <li><a href="/LorcanaApp">Spoilers</a></li>
+                    <li><a href="/LorcanaApp">Calender</a></li>
+                    <li><a href="/LorcanaApp">About Me</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 }
 
