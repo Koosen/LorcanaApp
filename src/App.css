@@ -7,6 +7,13 @@
     background-color: #24252a
 }
 
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
 .logo {
     font-size: xx-large;
 }
@@ -45,4 +52,30 @@ Header {
 
 .NavLinks li a:hover{
     color: aqua;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.Search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+}
+
+.searchInput {
+    font-size: 16px;
+    color: #24252a;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
 }
