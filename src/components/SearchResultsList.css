@@ -16,6 +16,13 @@
     padding: 5px;
 }
 
+.SearchResultList a {
+    color: #24252a;
+    background-color: transparent;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
 .SearchResultList div:hover{
     background-color: aqua;
 }
