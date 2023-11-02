@@ -9,7 +9,12 @@
 }
 
 .SearchResultList div{
+    width: 100%;
     background-color: white;
     font-family: sans-serif;
-    padding: 3px;
+    padding: 5px;
+}
+
+.SearchResultList div:hover{
+    background-color: aqua;
 }
