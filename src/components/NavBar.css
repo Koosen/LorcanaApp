@@ -1,0 +1,39 @@
+li, a {
+    font-family: "Agbalumo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.NavLinks {
+    list-style: none;
+}
+
+.NavLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.NavLinks li a{
+    transition: all 0.3s ease 0;
+}
+
+.NavLinks li a:hover{
+    color: aqua;
+}
+
+.logo {
+    font-size: xx-large;
+}
+
+.logospan {
+    color:aqua;
+}

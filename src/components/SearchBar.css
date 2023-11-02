@@ -1,0 +1,28 @@
+.SearchInput {
+    background-color: white;
+    width:33%;
+    border-radius: 32px;
+    height: 2.5rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #000;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size:  1.25rem;
+    width: 100%;
+    margin-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#searchIcon {
+    color: #24252a;
+    background-color: white;
+}
