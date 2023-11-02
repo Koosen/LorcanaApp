@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <SearchBar setCardSearchResults={setCardSearchResults}/>
-      <SearchResultList/>
+      <SearchResultList cardSearchResults={cardSearchResults}/>
     </div>
   );
 }

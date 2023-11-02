@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a
+    align-items: center;
+    background-color: #24252a;
 }
 
 .App{
@@ -12,4 +13,5 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    
 }

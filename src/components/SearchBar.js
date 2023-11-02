@@ -13,7 +13,7 @@ function SearchBar({setCardSearchResults}){
         .then((res) => {
             const cardList = res.data.map(cleanCardName)
             const filteredCardList = cardList.filter((cardName) => {
-                return value && cardName && cardName.toLowerCase().includes(value)
+                return value && cardName && cardName.toLowerCase().includes(value.toLowerCase())
             })
             setCardSearchResults(filteredCardList)
         })
