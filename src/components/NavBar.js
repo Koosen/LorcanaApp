@@ -10,7 +10,7 @@ function NavBar(){
                     <li><a href="/LorcanaApp">Card Prices</a></li>
                     <li><a href="/LorcanaApp">Spoilers</a></li>
                     <li><a href="/LorcanaApp">Calender</a></li>
-                    <li><a href="/LorcanaApp">About Me</a></li>
+                    <li><a href="/LorcanaApp/AboutMe">About Me</a></li>
                 </ul>
             </nav>
         </header>
