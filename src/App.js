@@ -1,18 +1,19 @@
-import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
-import SearchResultList from './components/SearchResultsList';
+import Landing from './components/Landing';
 
 function App() {
-  const [cardSearchResults, setCardSearchResults] = useState([])
 
   return (
-    <div className="App">
-      <NavBar/>
-      <SearchBar setCardSearchResults={setCardSearchResults}/>
-      <SearchResultList cardSearchResults={cardSearchResults}/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <NavBar/>
+        <Routes>
+          <Route path="/LorcanaApp" element={<Landing/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
