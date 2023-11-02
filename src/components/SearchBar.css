@@ -1,11 +1,11 @@
 .SearchInput {
+    display: flex;
     background-color: white;
     width:33%;
     border-radius: 32px;
     height: 2.5rem;
     padding: 0 15px;
-    box-shadow: 0px 0px 8px #000;
-    display: flex;
+    align-self: center;
     align-items: center;
 }
 
