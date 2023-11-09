@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
+import getCardPriceData from "../tools/getcardprice";
 
 function CardPrices(){
     const { cardName } = useParams();
@@ -13,7 +14,9 @@ function CardPrices(){
         })
     },[cardName])
 
-    
+    useEffect(() => {
+        getCardPriceData()
+    })
 
     return (
         <div className="CardInfoDisplay">
