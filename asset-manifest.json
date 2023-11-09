@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LorcanaApp/static/css/main.3b382c59.css",
-    "main.js": "/LorcanaApp/static/js/main.897a18a3.js",
+    "main.js": "/LorcanaApp/static/js/main.8fbf20c0.js",
     "index.html": "/LorcanaApp/index.html",
     "main.3b382c59.css.map": "/LorcanaApp/static/css/main.3b382c59.css.map",
-    "main.897a18a3.js.map": "/LorcanaApp/static/js/main.897a18a3.js.map"
+    "main.8fbf20c0.js.map": "/LorcanaApp/static/js/main.8fbf20c0.js.map"
   },
   "entrypoints": [
     "static/css/main.3b382c59.css",
-    "static/js/main.897a18a3.js"
+    "static/js/main.8fbf20c0.js"
   ]
 }
