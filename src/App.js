@@ -15,6 +15,7 @@ function App() {
           <Route path="/LorcanaApp/Card/:cardName" element={<CardPrices/>}/>
           <Route path="/LorcanaApp/AboutMe" element={<AboutMe/>}/>
           <Route path="/LorcanaApp" element={<Landing/>}/>
+          <Route path="/" element={<Landing/>}/>
         </Routes>
       </div>
     </BrowserRouter>
