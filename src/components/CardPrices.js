@@ -12,10 +12,10 @@ function CardPrices(){
             console.log(`${cardName} searched`)
             console.log(res)
         })
-    },[cardName])
+    })
 
     useEffect(() => {
-        getCardPriceData()
+        getCardPriceData(cardName)
     })
 
     return (
