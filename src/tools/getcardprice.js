@@ -1,7 +1,8 @@
 import axios from "axios";
+import cardMarketCardName from "./cardMarketCardName"
 
  async function getCardPriceData(card){
-    const cardName = card.replaceAll(" ","-")
+    const cardName = cardMarketCardName(card)
 
     const cardMarketPage = 'https://corsproxy.io/?' + 
         encodeURIComponent(`https://www.cardmarket.com/en/Lorcana/Products/Singles/The-First-Chapter/${cardName}`);
